@@ -112,4 +112,7 @@ module tt_um_example (
     .vpos(y)
   );
 
+assign {R,G,B} =
+    (~video_active) ? 6'b00_00_00 : {&x[5:2] * x[1-:2], &x[5:2] * x[1-:2], &y[5:2] * y[1-:2]};
+
 endmodule
