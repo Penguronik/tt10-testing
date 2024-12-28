@@ -32,14 +32,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "hsync"
+  uo[1]: "B[0]"
+  uo[2]: "G[0]"
+  uo[3]: "R[0]"
+  uo[4]: "vsync"
+  uo[5]: "B[1]"
+  uo[6]: "G[1]"
+  uo[7]: "R[1]"
 
   # Bidirectional pins
   uio[0]: ""
